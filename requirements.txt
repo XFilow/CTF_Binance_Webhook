@@ -1,0 +1,6 @@
+flask
+gunicorn
+python-binance
+binance-futures-connector
+
+#pip3 install - r requirements.txt
