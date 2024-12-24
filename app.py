@@ -7,7 +7,7 @@ app = Flask(__name__)
 #set FLASK_APP=app.py
 #flask run
 
-client = Client(config.API_KEY, config.API_SECRET)
+client = Client(config.API_KEY, config.API_SECRET, testnet=True)
 
 def order(side, quantity, symbol, order_type=ORDER_TYPE_MARKET):
     try:
